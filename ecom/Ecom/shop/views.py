@@ -7,7 +7,7 @@ from .models import Products, Category, Order, Customer
 from .forms import UserForm, CustomerForm, ProductForm, CategoryForm, OrderForm
 from django.db.models import Q
 
-# ========== HOME & PRODUCTS ==========
+# ========== HOME & PRODUCTS 
 def home(request):
     # Get all products from database
     products = Products.objects.all()
